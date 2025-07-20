@@ -1,0 +1,55 @@
+{
+  "name": "KTA Pagar Nusa Template",
+  "type": "elementor-template",
+  "version": "1.0",
+  "content": {
+    "sections": [
+      {
+        "type": "hero",
+        "title": "Pendaftaran KTA Pagar Nusa",
+        "subtitle": "Mari bergabung bersama keluarga besar Pagar Nusa untuk menjaga silaturahmi dan persaudaraan.",
+        "button": "DAFTAR SEKARANG"
+      },
+      {
+        "type": "about",
+        "heading": "Tentang Pagar Nusa",
+        "content": [
+          "Sejarah singkat Pagar Nusa",
+          "Visi & Misi",
+          "Nilai-nilai Ke-Pagarnusaan"
+        ]
+      },
+      {
+        "type": "form",
+        "fields": [
+          "Nama Lengkap",
+          "Nomor Induk",
+          "Tempat & Tanggal Lahir",
+          "Alamat",
+          "Cabang / Ranting",
+          "No. WhatsApp",
+          "Email (opsional)",
+          "Pas Foto (upload)",
+          "Scan KTP / Identitas (upload)",
+          "Scan Sertifikat (jika ada)"
+        ],
+        "submit": "KIRIM"
+      },
+      {
+        "type": "status-check",
+        "heading": "Cek Status Pendaftaran",
+        "input": "Masukkan nama atau email",
+        "output": [
+          "Dalam Proses",
+          "Disetujui",
+          "Ditolak"
+        ]
+      },
+      {
+        "type": "contact",
+        "wa": "Nomor WhatsApp Admin",
+        "email": "Email Kontak"
+      }
+    ]
+  }
+}
